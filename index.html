@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter to My Future Bestie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b00f763c-a69a-440a-a8dc-5623d910f820.png');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            color: #3e3e3e;
+        }
+        .letter-paper {
+            background: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4d41574e-9d4d-4827-98ed-415ba02ae62a.png');
+            background-size: cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        .handwriting {
+            font-family: 'Dancing Script', cursive;
+        }
+        .ink-spot {
+            position: absolute;
+            opacity: 0.1;
+        }
+        .wax-seal {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+        .envelope {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+        .fade-in-text {
+            animation: fadeIn 3s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .heart-beat {
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .address-label {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-10 px-4">
+    <div class="max-w-3xl mx-auto flex flex-col items-center">
+        <div class="envelope transform -rotate-3 opacity-90">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/66f52c55-2a78-4cab-9cec-5eff09232b5e.png" alt="Vintage opened envelope with purple wax seal" class="w-full h-auto rounded">
+            <div class="address-label px-8 py-4 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-80 rounded">
+                <div class="text-pink-600">To My Future Bestie</div>
+                <div class="text-xs text-gray-500 mt-2">From: Ayush</div>
+            </div>
+        </div>
+
+        <div class="letter-paper p-8 md:p-12 mb-20 fade-in-text">
+            <div class="ink-spot top-10 left-10 w-12 h-12 bg-indigo-600 rounded-full"></div>
+            <div class="ink-spot top-20 right-10 w-20 h-8 bg-blue-400 rounded-full"></div>
+            
+            <div class="relative z-10">
+                <div class="text-center mb-10">
+                    <h1 class="text-4xl md:text-5xl text-pink-700 font-bold handwriting mb-2">Dear Future Bestie</h1>
+                    <div class="w-32 h-1 bg-pink-300 mx-auto my-4"></div>
+                </div>
+
+                <div class="space-y-6 text-gray-700 leading-relaxed">
+                    <p class="text-lg md:text-xl animation-delay-300 fade-in-text">
+                        I hope this letter finds you in a world full of adventures and laughter! As I sit down to write this, I can't help but think about what makes our friendship so special and unbreakable, even if we were to meet as strangers again.
+                    </p>
+
+                    <div class="relative pl-6">
+                        <div class="absolute left-0 top-0 h-full w-1 bg-pink-200 rounded-full"></div>
+                        <p class="text-lg md:text-xl animation-delay-600 fade-in-text">
+                            <span class="text-pink-600 font-medium">First and foremost,</span> I believe it's our shared sense of humor that would draw us back together. No matter where life takes us, I know we would still find joy in the little things and share countless laughs. 
+                        </p>
+                    </div>
+
+                    <div class="p-4 bg-white bg-opacity-50 rounded-lg animation-delay-700 fade-in-text">
+                        <p class="text-lg italic text-indigo-700">
+                            Remember that time we got lost on our way to the concert but ended up having the best time exploring the city instead? That spontaneous adventure is one of my favorite memories with you! It perfectly captures how we can turn any situation into a fun experience.
+                        </p>
+                    </div>
+
+                    <p class="text-lg md:text-xl animation-delay-900 fade-in-text">
+                        As for our unbreakable bond, it's built on trust, support, and understanding. We've always been there for each other, through thick and thin, and I promise to continue being your biggest cheerleader, no matter what. I vow to always listen without judgment and to remind you of your worth, especially on the tough days.
+                    </p>
+
+                    <div class="animation-delay-1200 fade-in-text">
+                        <div class="flex items-center my-8">
+                            <div class="w-16 h-0.5 bg-pink-300"></div>
+                            <div class="heart-beat mx-4">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dfc3df14-2bdf-4b43-a8fc-6f4cef54cfbd.png" alt="Pink heart illustration" class="w-12 h-12">
+                            </div>
+                            <div class="w-16 h-0.5 bg-pink-300"></div>
+                        </div>
+
+                        <p class="text-lg md:text-xl text-center">
+                            So, here's to us, my dear friend! No matter where life takes us, I know our paths will cross again, and we'll pick up right where we left off. Let's keep making memories and supporting each other, because that's what true friendship is all about.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-16 pt-6 border-t border-pink-100 flex flex-col items-end">
+                    <div class="flex items-center">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/154ffa74-a37f-4a3a-971e-fe4ecd44d481.png" alt="Monogram initial A in elegant script" class="w-10 h-10 rounded-full border border-pink-200">
+                        <div class="ml-3">
+                            <div class="font-bold text-gray-600">Ayush</div>
+                            <div class="text-sm text-gray-500">Your friend through time</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4930d48b-d6e6-4dbf-9c29-96806308ce15.png" alt="Decorative wax seal with heart design" class="wax-seal">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const paragraphs = document.querySelectorAll('.fade-in-text');
+            
+            function staggerAnimations() {
+                paragraphs.forEach((para, index) => {
+                    setTimeout(() => {
+                        para.classList.add('opacity-100');
+                    }, index * 400);
+                });
+            }
+
+            staggerAnimations();
+        });
+    </script>
+</body>
+</html>
+
+```
