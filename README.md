@@ -1,1 +1,1 @@
-my best friend
+MY BEST FRIEND
