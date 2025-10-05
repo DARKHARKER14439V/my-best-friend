@@ -2,6 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+function checkPassword() {
+    var password = prompt("Enter password to view this page:");
+    if (password === "Ayush@2009") {
+        alert("Access granted!");
+        window.location.href = "content.html"; // your real content page
+    } else {
+        alert("Wrong password. Access denied!");
+        window.location.href = "https://github.com"; // redirect if wrong
+    }
+}
+window.onload = checkPassword;
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Letter to My Future Bestie</title>
@@ -155,3 +168,4 @@
 </html>
 
 ```
+
